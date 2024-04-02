@@ -1,0 +1,327 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #111;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0px 10px 15px #000;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 15px;
+  margin: 0 5px;
+  transition: 0.3s;
+  font-weight: bold;
+  box-shadow: 0px 5px 15px #000;
+}
+
+nav a:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+#principal {
+  background-color: #111;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #000;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* destaques */
+.destaques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.destaque {
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  background-color: #333;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.destaque img {
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.destaque p {
+  margin: 5px;
+  font-size: 19px;
+}
+
+
+/* reproducao. */
+nav {
+  background-color: #111;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0px 10px 15px #000;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 15px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.playlist-div {
+  width: 100%;
+  max-width: 800px; 
+  margin-top: 50px;
+}
+
+.playlists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlists li {
+  padding: 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #222;
+  color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playlists li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.playlists li a:hover {
+  color: #fff;
+}
+
+.playlists li .numero-musicas {
+  color: #666;
+  font-size: 14px;
+}
+
+.mini-player {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 5px;
+}
+
+.mini-player img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.mini-player audio {
+  width: calc(100% - 80px); 
+}
+
+.mini-player p {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.musica .mini-player p:first-child {
+  margin-right: auto;
+}
+
+.musica .mini-player p:last-child {
+  margin: 0;
+  font-weight: bold;
+}
+
+
+/* perfill */
+
+.perfil-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+  padding: 50px;
+  background-color: #111; 
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #000;
+}
+
+.info-user {
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 20px;
+  background-color: #222;
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+.info-user img {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+  border: 5px solid #444; 
+  margin-bottom: 20px; 
+}
+
+.info-user h2 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.header-section .seila {
+  font-size: 24px;
+}
+
+.header-section .mais a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #444;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.ouvir-novamente,
+.favoritas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.musica {
+  margin: 20px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin:  50px;
+  padding: 10px;
+  background-color: #1a1919; 
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #000;
+  
+}
+
+.musica img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #111;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #000;
+}
+
+.musica p {
+  margin: 5px;
+  
+}
+
+.header-preferencias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.header-preferencias .seila {
+  font-size: 24px;
+}
+
+.preferencias-musicais {
+  align-self: flex-start;
+  margin-top: 30px;
+  background-color: #222;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.preferencias-musicais ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.preferencias-musicais li {
+  width: 150px;
+  height: 50px;
+  padding-right: 10px;
+  border: 1px solid #444;
+  border-radius: 9px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.faixa-colorida {
+  width: 5px;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
